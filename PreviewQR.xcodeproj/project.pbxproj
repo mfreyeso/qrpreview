@@ -15,6 +15,7 @@
 		AC5A0DB01EE10DE60026581A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC5A0DAE1EE10DE60026581A /* LaunchScreen.storyboard */; };
 		AC5A0DBB1EE10DE60026581A /* PreviewQRTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A0DBA1EE10DE60026581A /* PreviewQRTests.swift */; };
 		AC5A0DC61EE10DE60026581A /* PreviewQRUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A0DC51EE10DE60026581A /* PreviewQRUITests.swift */; };
+		AC5A0DD41EE10FE20026581A /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5A0DD31EE10FE20026581A /* ResponseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		AC5A0DC11EE10DE60026581A /* PreviewQRUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PreviewQRUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC5A0DC51EE10DE60026581A /* PreviewQRUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewQRUITests.swift; sourceTree = "<group>"; };
 		AC5A0DC71EE10DE60026581A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC5A0DD31EE10FE20026581A /* ResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				AC5A0DAE1EE10DE60026581A /* LaunchScreen.storyboard */,
 				AC5A0DB11EE10DE60026581A /* Info.plist */,
 				AC5A0DA91EE10DE60026581A /* PreviewQR.xcdatamodeld */,
+				AC5A0DD31EE10FE20026581A /* ResponseViewController.swift */,
 			);
 			path = PreviewQR;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC5A0DA51EE10DE60026581A /* ViewController.swift in Sources */,
+				AC5A0DD41EE10FE20026581A /* ResponseViewController.swift in Sources */,
 				AC5A0DAB1EE10DE60026581A /* PreviewQR.xcdatamodeld in Sources */,
 				AC5A0DA31EE10DE60026581A /* AppDelegate.swift in Sources */,
 			);
